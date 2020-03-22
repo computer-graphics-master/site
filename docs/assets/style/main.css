@@ -52,6 +52,11 @@ body {
     display: block;
 }
 
+#landing .twitch-link {
+    text-decoration: none;
+    color: #8868c3;
+}
+
 
 @media(min-width: 700px) {
     #landing > header > h1 {
@@ -154,7 +159,7 @@ main h1 {
     font-weight: 300;
 }
 
-main p {
+.cell > p, .cell > ul {
     font-size: 1.333rem;
 }
 
